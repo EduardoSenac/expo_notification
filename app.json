@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Ponto de Encontro",
+    "slug": "ponto-encontro-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permitir que o aplicativo acesse sua localização enquanto você estiver usando o app."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.exemplo.pontoencontro"
+    }
+  }
+}
